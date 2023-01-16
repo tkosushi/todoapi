@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func handler(web http.ResponseWriter, request *http.Reques){
+func handler(web http.ResponseWriter, request *http.Request){
 	fmt.Fprintf(web, "konichiwa !!")
 }
 
