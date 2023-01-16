@@ -6,7 +6,8 @@ import (
 )
 
 func handler(web http.ResponseWriter, request *http.Request){
-	fmt.Fprintf(web, "konichiwa !!")
+	header := request
+	fmt.Fprintf(web, header)
 }
 
 func main() {
